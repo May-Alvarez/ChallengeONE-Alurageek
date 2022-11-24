@@ -1,0 +1,36 @@
+/* Copyright */
+.copyright {
+    background-color: var(--color-white);
+}
+
+.copyright__container {
+    margin: auto;
+    padding: 2rem 0;
+    text-align: center;
+    width: 80%;
+}
+
+.copyright__author {
+    font-size: 1.5rem;
+}
+
+.copyright__author,
+.copyright__date {
+    color: var(--color-darkgray);
+    font-weight: 500;
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .copyright__container {
+        padding: 1rem;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .copyright__author {
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+}

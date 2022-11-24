@@ -1,0 +1,17 @@
+:root {
+    --color-blue: #2A7AE4;
+    --color-bluehover: #358dff;
+    --color-lightblue: #EAF2FD;
+    --color-white: #FFFFFF;
+    --color-gray: #F5F5F5;
+    --color-lightgray: #C8C8C8;
+    --color-darkgray: #464646;
+    --color-green: #16A085;
+    --color-red: #C0392B;
+    --font-default: 'Raleway', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: var(--font-default);
+}
